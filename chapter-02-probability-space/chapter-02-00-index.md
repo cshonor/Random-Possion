@@ -9,6 +9,7 @@
 3. `chapter-02-03-conditional-expectation.md`
 4. `chapter-02-04-measure-theory-extension.md`
 5. `chapter-02-05-exercises-and-summary.md`
+6. `chapter-02-06-common-one-dimensional-distributions.md`
 
 ## 说明
 
