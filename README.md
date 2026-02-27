@@ -17,43 +17,35 @@
 ## 项目结构
 
 ```
-随机过程/
-├── README.md                      # 本文件
-├── 例题练习/                       # 书中例题的手算练习
-│   ├── 第1章/                      # 金融领域中的数学模型
-│   ├── 第2章/                      # 概率空间
-│   ├── 第3章/                      # 随机过程
-│   ├── 第4章/                      # Poisson过程
-│   ├── 第5章/                      # 离散参数Markov链
-│   ├── 第7章/                      # Brown运动
-│   └── 第9章/                      # 随机微分方程
-├── 代码实现/                       # 用代码实现相关模型和计算
-│   ├── 随机过程模拟/
-│   │   └── 布朗运动.py
-│   ├── 金融应用/
-│   │   └── 期权定价_BS模型.py
-│   └── requirements.txt
-└── 学习笔记/                       # 学习笔记和总结
-    ├── 学习路径指南.md             # 完整学习路径（推荐先看）
-    ├── 第1章_金融领域中的数学模型.md
-    ├── 第2章_概率空间.md
-    ├── 第3章_随机过程.md
-    ├── 第4章_Poisson过程.md
-    ├── 第5章_离散参数Markov链.md
-    ├── 第6章_连续时间Markov链.md
-    ├── 第7章_Brown运动.md
-    ├── 第8章_鞅及其应用.md
-    ├── 第9章_随机微分方程.md
-    ├── 概念理解/
-    └── 定理应用/
+random/
+├── README.md
+├── chapter-01-financial-math-models/
+│   └── chapter-01-financial-math-models.md
+├── chapter-02-probability-space/
+│   ├── chapter-02-probability-space.md
+│   └── chapter-02-supplement-sigma-algebra-and-measurable-space.md
+├── chapter-03-stochastic-processes/
+│   └── chapter-03-stochastic-processes.md
+├── chapter-04-poisson-process/
+│   └── chapter-04-poisson-process.md
+├── chapter-05-discrete-time-markov-chain/
+│   └── chapter-05-discrete-time-markov-chain.md
+├── chapter-06-continuous-time-markov-chain/
+│   └── chapter-06-continuous-time-markov-chain.md
+├── chapter-07-brownian-motion/
+│   └── chapter-07-brownian-motion.md
+├── chapter-08-martingale-and-applications/
+│   └── chapter-08-martingale-and-applications.md
+└── chapter-09-stochastic-differential-equations/
+    └── chapter-09-stochastic-differential-equations.md
 ```
 
 ## 快速开始
 
-1. **先阅读**：[学习路径指南.md](学习笔记/学习路径指南.md) - 了解整体学习规划
-2. **按章节学习**：从第1章开始，每章都有对应的学习笔记
-3. **动手练习**：在`例题练习/`目录下记录你的解题过程
-4. **代码实践**：运行`代码实现/`中的代码，加深理解
+1. **先看总览**：阅读本 README，了解学习方法和章节顺序
+2. **按章节学习**：从 `chapter-01` 到 `chapter-09` 依次推进
+3. **重点回顾**：优先掌握条件期望、Poisson 过程、Markov 链、Brown 运动、Ito 公式
+4. **实践巩固**：每章补充自己的例题推导与总结
 
 ## 学习路径
 
