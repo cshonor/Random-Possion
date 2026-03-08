@@ -22,6 +22,12 @@ random/
 ├── chapter-01-financial-math-models/
 │   └── chapter-01-financial-math-models.md
 ├── chapter-02-probability-space/
+│   ├── chapter-02-00-index.md
+│   ├── chapter-02-01-probability-space-and-random-variable.md
+│   ├── chapter-02-02-moments-and-expectation.md
+│   ├── chapter-02-03-joint-distribution.md
+│   ├── chapter-02-04-conditional-expectation.md
+│   ├── chapter-02-05-measure-theory-and-appendix.md
 │   ├── chapter-02-probability-space.md
 │   └── chapter-02-supplement-sigma-algebra-and-measurable-space.md
 ├── chapter-03-stochastic-processes/
@@ -36,9 +42,18 @@ random/
 │   └── chapter-07-brownian-motion.md
 ├── chapter-08-martingale-and-applications/
 │   └── chapter-08-martingale-and-applications.md
-└── chapter-09-stochastic-differential-equations/
-    └── chapter-09-stochastic-differential-equations.md
+├── chapter-09-stochastic-differential-equations/
+│   └── chapter-09-stochastic-differential-equations.md
+├── book-stochastic-processes-fang-miao/
+│   └── 1.md
+└── book-shreve-stochastic-calculus/
+    └── 1.md
 ```
+
+### 参考教材笔记
+
+- **book-stochastic-processes-fang-miao**（主教材）：《随机过程》（第三版）方兆本、缪柏其 编著
+- **book-shreve-stochastic-calculus**：Shreve《金融随机分析》（Stochastic Calculus for Finance）
 
 ## 快速开始
 
